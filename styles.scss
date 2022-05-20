@@ -40,6 +40,10 @@
     }
     .nav-item {
         padding: 1%;
+        a {
+            text-decoration: none;
+            color: black;
+        }
     }
 }
 
@@ -161,11 +165,19 @@
         margin-left: 10%;
         margin-right: 10%;
     }
-    .contact {
+    .about {
+        text-decoration: none;
+        color: white;
+    }
+    .recipes {
         text-decoration: none;
         color: white;
     }
     .faq {
+        text-decoration: none;
+        color: white;
+    }
+    .contact {
         text-decoration: none;
         color: white;
     }
@@ -181,20 +193,39 @@
     }
 }
 
-.content-faq {
+// _______Start of About styling______
+.about-content {
     background-color: rgb(239, 239, 232);
     height: 50%;
     color: brown;
-    h1 {
+    .about-title {
         text-align: center;
         padding: 2%;
     }
-    h2 {
-        text-align: center;
-        padding: 2%;
-    }
-    p {
+    .about-text {
         text-align: justify;
         padding: 5px;
     }
 }
+
+// _______End of About styling______
+// _______Start of FAQ styling______
+.content-faq {
+    background-color: rgb(239, 239, 232);
+    height: 50%;
+    color: brown;
+    .faq-title {
+        text-align: center;
+        padding: 2%;
+    }
+    .faq-subtitle {
+        text-align: center;
+        padding: 2%;
+    }
+    .faq-text {
+        text-align: justify;
+        padding: 5px;
+    }
+}
+
+// _______End of FAQ styling______

@@ -51,6 +51,11 @@
   padding: 1%;
 }
 
+.navbar .nav-item a {
+  text-decoration: none;
+  color: black;
+}
+
 .container {
   margin-top: 3%;
   margin-left: 10%;
@@ -213,12 +218,22 @@
   margin-right: 10%;
 }
 
-.footer .contact {
+.footer .about {
+  text-decoration: none;
+  color: white;
+}
+
+.footer .recipes {
   text-decoration: none;
   color: white;
 }
 
 .footer .faq {
+  text-decoration: none;
+  color: white;
+}
+
+.footer .contact {
   text-decoration: none;
   color: white;
 }
@@ -236,23 +251,39 @@
   padding-top: 10px;
 }
 
+.about-content {
+  background-color: #efefe8;
+  height: 50%;
+  color: brown;
+}
+
+.about-content .about-title {
+  text-align: center;
+  padding: 2%;
+}
+
+.about-content .about-text {
+  text-align: justify;
+  padding: 5px;
+}
+
 .content-faq {
   background-color: #efefe8;
   height: 50%;
   color: brown;
 }
 
-.content-faq h1 {
+.content-faq .faq-title {
   text-align: center;
   padding: 2%;
 }
 
-.content-faq h2 {
+.content-faq .faq-subtitle {
   text-align: center;
   padding: 2%;
 }
 
-.content-faq p {
+.content-faq .faq-text {
   text-align: justify;
   padding: 5px;
 }
