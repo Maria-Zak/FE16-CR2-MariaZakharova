@@ -81,7 +81,6 @@
           justify-content: center;
   position: relative;
   text-align: center;
-  word-break: break-word;
 }
 
 .container .background-img {
@@ -98,7 +97,6 @@
   background-color: #403e40;
   position: absolute;
   width: 100%;
-  word-break: break-word;
   opacity: 70%;
   padding: 10px;
   font-size: medium;
